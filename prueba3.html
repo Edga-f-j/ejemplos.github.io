@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabores</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #555;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .menu-category {
+            margin: 2rem 0;
+        }
+
+        .menu-grid {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            width: calc(33% - 2rem);
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .menu-item h3 {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+
+        .menu-item p {
+            margin: 0 1rem 1rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Restaurante Sabores</h1>
+        <p>¡Disfruta de una experiencia gastronómica única!</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Sección Menú -->
+    <section class="section" id="menu">
+        <h2>Menú</h2>
+
+        <!-- Platos Fuertes -->
+        <div class="menu-category">
+            <h3>Platos Fuertes</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="plato1.jpg" alt="Plato Fuerte 1">
+                    <h3>Plato 1</h3>
+                    <p>Descripción breve del plato 1.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="plato2.jpg" alt="Plato Fuerte 2">
+                    <h3>Plato 2</h3>
+                    <p>Descripción breve del plato 2.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="plato3.jpg" alt="Plato Fuerte 3">
+                    <h3>Plato 3</h3>
+                    <p>Descripción breve del plato 3.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Postres -->
+        <div class="menu-category">
+            <h3>Postres</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="postre1.jpg" alt="Postre 1">
+                    <h3>Postre 1</h3>
+                    <p>Descripción breve del postre 1.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="postre2.jpg" alt="Postre 2">
+                    <h3>Postre 2</h3>
+                    <p>Descripción breve del postre 2.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="postre3.jpg" alt="Postre 3">
+                    <h3>Postre 3</h3>
+                    <p>Descripción breve del postre 3.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bebidas -->
+        <div class="menu-category">
+            <h3>Bebidas</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="bebida1.jpg" alt="Bebida 1">
+                    <h3>Bebida 1</h3>
+                    <p>Descripción breve de la bebida 1.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="bebida2.jpg" alt="Bebida 2">
+                    <h3>Bebida 2</h3>
+                    <p>Descripción breve de la bebida 2.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="bebida3.jpg" alt="Bebida 3">
+                    <h3>Bebida 3</h3>
+                    <p>Descripción breve de la bebida 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Restaurante Sabores. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
